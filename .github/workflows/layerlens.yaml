@@ -12,8 +12,6 @@ jobs:
 
     - name: install dart sdk
       uses: dart-lang/setup-dart@6a218f2413a3e78e9087f638a238f6b40893203d
-      with:
-        sdk: ${{ matrix.sdk }}
 
     - name: version
       run: dart --version
