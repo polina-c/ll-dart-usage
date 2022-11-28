@@ -129,6 +129,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.5"
+  layerlens:
+    dependency: "direct dev"
+    description:
+      path: "."
+      ref: master
+      resolved-ref: e2802d92452057f74e7250d4cb7712c56bf4e4dd
+      url: "https://github.com/polina-c/ll-dart-proto.git"
+    source: git
+    version: "0.0.0"
   lints:
     dependency: "direct dev"
     description:
