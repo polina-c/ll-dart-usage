@@ -5,18 +5,18 @@ packages:
     dependency: transitive
     description:
       name: _fe_analyzer_shared
-      sha256: "3444216bfd127af50bbe4862d8843ed44db946dd933554f0d7285e89f10e28ac"
+      sha256: e6dd5609f0945ef6bc72bdcd28af6eeabefef99a6d62b7790320133789217759
       url: "https://pub.dev"
     source: hosted
-    version: "50.0.0"
+    version: "38.0.0"
   analyzer:
     dependency: transitive
     description:
       name: analyzer
-      sha256: "68796c31f510c8455a06fed75fc97d8e5ad04d324a830322ab3efc9feb6201c1"
+      sha256: c71e50e4e1674c9ffeaf053bb8d38e4a03b94d08af6a27fb352f3ff569becc44
       url: "https://pub.dev"
     source: hosted
-    version: "5.2.0"
+    version: "3.4.1"
   args:
     dependency: transitive
     description:
@@ -41,6 +41,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
+  cli_util:
+    dependency: transitive
+    description:
+      name: cli_util
+      sha256: "66f86e916d285c1a93d3b79587d94bd71984a66aac4ff74e524cfa7877f1395c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.3.5"
   collection:
     dependency: transitive
     description:
@@ -97,6 +105,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
+  http:
+    dependency: transitive
+    description:
+      name: http
+      sha256: "6aa2946395183537c8b880962d935877325d6a09a2867c3970c05c0fed6ac482"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.13.5"
   http_multi_server:
     dependency: transitive
     description:
@@ -132,12 +148,11 @@ packages:
   layerlens:
     dependency: "direct dev"
     description:
-      path: "."
-      ref: master
-      resolved-ref: e2802d92452057f74e7250d4cb7712c56bf4e4dd
-      url: "https://github.com/polina-c/ll-dart-proto.git"
-    source: git
-    version: "0.0.0"
+      name: layerlens
+      sha256: "7a0850e2722122256a72b2b803f419e045b26e5a8bf89d1caf56dbd028322496"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.5"
   lints:
     dependency: "direct dev"
     description:
@@ -198,10 +213,10 @@ packages:
     dependency: transitive
     description:
       name: path
-      sha256: db9d4f58c908a4ba5953fcee2ae317c94889433e5024c27ce74a37f94267945b
+      sha256: "8829d8a55c13fc0e37127c29fedf290c102f4e40ae94ada574091fe0ff96c917"
       url: "https://pub.dev"
     source: hosted
-    version: "1.8.2"
+    version: "1.8.3"
   pool:
     dependency: transitive
     description:
@@ -379,4 +394,4 @@ packages:
     source: hosted
     version: "3.1.1"
 sdks:
-  dart: ">=2.19.0-406.0.dev <4.0.0"
+  dart: ">=2.18.0 <4.0.0"
